@@ -11,10 +11,6 @@ div {
     font-size: 24px;
 }
 
-.p {
-        justify-content: center;
-}
-
 #heade {
     display: flex;
     width: 100%;
