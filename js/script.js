@@ -31,4 +31,14 @@ function onClickButton_n() {
     window.location.href = 'index_3.html';
     }
 }
+function proverka() {
+if (localStorage.getItem('visitCount')) {
+    var count = parseInt(localStorage.getItem('visitCount')) + 1;
+    localStorage.setItem('visitCount', count);
+} else {
+    localStorage.setItem('visitCount', 1);
+}
 
+var visitCount = localStorage.getItem('visitCount');
+document.getElementById('counter').innerHTML = 'Людей, сделавших правельный выбор ' + visitCount;
+}
