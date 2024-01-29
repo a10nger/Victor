@@ -22,8 +22,6 @@ function onMouseOver() {
         }
         num++;
     }
-    // console.log(num)
-    // console.log(ans)
 }
 
 function onClickButton_n() {
